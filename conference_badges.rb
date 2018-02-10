@@ -3,7 +3,7 @@ attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 def badge_maker(name)
 #names.each do |name|
   #puts "Hello, my name is #{name}."
-  name.each {|name| puts "Hello, my name is #{name}."  }
+  attendees.each {|attendee| puts "Hello, my name is #{name}."  }
     #puts "Hello, my name is '{name}'."
   #  names
 end
