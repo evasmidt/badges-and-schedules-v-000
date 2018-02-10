@@ -33,7 +33,8 @@ end
 # the results of the batch_badge_creator method and
 #then of the assign_rooms method to the screen.
 def printer(attendees)
-  print batch_badge_creator(attendees)
+ batch_badge_creator(attendees).each do |badge|
+    puts badge
   assign_rooms.each do | attendee, index |
   print assign_rooms
 end
