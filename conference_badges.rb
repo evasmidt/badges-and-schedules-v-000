@@ -4,3 +4,4 @@ def badge_maker(names)
   names.each do
     puts "Hello, my name is '{name}'."
 end
+end
