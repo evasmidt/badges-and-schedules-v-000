@@ -5,7 +5,7 @@ def badge_maker(names)
   #puts "Hello, my name is #{name}."
   names.each {|name| puts "Hello, my name is #{name}."  }
     #puts "Hello, my name is '{name}'."
-    names
+  #  names
 end
 
 end
