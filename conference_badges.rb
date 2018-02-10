@@ -41,7 +41,9 @@ end
 end
 
 def printer(assign_rooms)
-  assign_rooms(attendees).each do |index|
+  assign_rooms(attendees).each do |assignment|
+
+    assign_rooms(attendees).each do |assignment|
     puts assign_rooms
 
   end
