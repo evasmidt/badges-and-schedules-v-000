@@ -24,9 +24,10 @@ end
 #"Hello, _____! You'll be assigned to room _____!"
 
 
-def assign_rooms(speakers)
-  "Hello, #{speaker}! You'll be assigned to room #{room}!"
-
+def assign_rooms(attendees)
+  attendees.each_with_index do | attendee, index |
+    "Hello, #{attendee}! You'll be assigned to room #{index+1}!"
+#index <= 7
 end
 #def square_array(array)
 #  squared = []
