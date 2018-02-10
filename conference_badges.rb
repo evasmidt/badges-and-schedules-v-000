@@ -23,8 +23,12 @@ end
 #return a list of room assignments in the form of:
 #"Hello, _____! You'll be assigned to room _____!"
 
+
+def assign_rooms(speakers)
+  "Hello, #{speaker}! You'll be assigned to room #{room}!"
+
+end
 #def square_array(array)
-  # your code here
 #  squared = []
 #  array.each { |number| squared << number **2 }
   #squared
