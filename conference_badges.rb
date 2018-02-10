@@ -38,6 +38,8 @@ def printer(attendees)
   #assign_rooms.each do | attendee, index |
   #print assign_rooms
 end
+  assign_rooms(attendees).each do |assignment|
+end
 end
 
 def printer(assign_rooms)
