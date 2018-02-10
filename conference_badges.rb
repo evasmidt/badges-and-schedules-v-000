@@ -33,8 +33,8 @@ end
 # the results of the batch_badge_creator method and
 #then of the assign_rooms method to the screen.
 def printer
-  batch_bagde_creator
-  assign_rooms
+  print batch_bagde_creator
+  print assign_rooms
 end
 #def square_array(array)
 #  squared = []
