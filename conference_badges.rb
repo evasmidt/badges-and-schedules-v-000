@@ -37,6 +37,7 @@ def printer
   assign_rooms.each do | attendee, index |
   print assign_rooms
 end
+end
 #def square_array(array)
 #  squared = []
 #  array.each { |number| squared << number **2 }
