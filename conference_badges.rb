@@ -34,6 +34,7 @@ end
 #then of the assign_rooms method to the screen.
 def printer
   print batch_bagde_creator
+  assign_rooms.each do | attendee, index |
   print assign_rooms
 end
 #def square_array(array)
