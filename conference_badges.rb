@@ -5,7 +5,7 @@ def badge_maker(names)
     #puts "Hello, my name is '{name}'."
     names
 end
-end
+
 
 
 #def square_array(array)
