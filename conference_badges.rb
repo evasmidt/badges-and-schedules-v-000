@@ -8,7 +8,8 @@ def badge_maker(name)
   #  names
 end
 
-def badge_batch_maker
+def batch_badge_creator
+
 end
 
 #end
