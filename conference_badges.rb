@@ -39,17 +39,18 @@ def printer(attendees)
   #print assign_rooms
 end
   assign_rooms(attendees).each do |assignment|
-end
-end
-
-def printer(assign_rooms)
-  assign_rooms(attendees).each do |assignment|
-
-    assign_rooms(attendees).each do |assignment|
     puts assign_rooms
-
-  end
 end
+end
+
+#def printer(assign_rooms)
+#  assign_rooms(attendees).each do |assignment|
+
+#    assign_rooms(attendees).each do |assignment|
+#    puts assign_rooms
+
+#  end
+#end
 #def square_array(array)
 #  squared = []
 #  array.each { |number| squared << number **2 }
