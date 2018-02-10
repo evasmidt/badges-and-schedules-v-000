@@ -29,6 +29,7 @@ def assign_rooms(attendees)
     "Hello, #{attendee}! You'll be assigned to room #{index+1}!"
 #index <= 7
 end
+end
 #def square_array(array)
 #  squared = []
 #  array.each { |number| squared << number **2 }
