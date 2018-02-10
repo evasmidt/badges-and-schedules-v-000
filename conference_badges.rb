@@ -8,6 +8,9 @@ def badge_maker(name)
   #  names
 end
 
+def badge_batch_maker
+end
+
 #end
 
 #def square_array(array)
